@@ -1,0 +1,25 @@
+//Si scriva un programma che generi 10000 numeri casuali tra 1 e 10 compresi. Il programma controlli che la media dei numeri estratti si approssima (è vicina) a 5,5.
+
+Random rnd = new Random();
+double somma = 0.0;
+double media;
+
+
+for (int i = 0; i < 10000; i++)
+{
+	somma += rnd.Next(0, 11);
+}
+media = somma / 10000.0;
+Console.WriteLine(media);
+
+if (Math.Abs(media - 5.5) < 0.3)
+{
+	Console.WriteLine("La media si approssima a 5.5");
+}
+else
+{
+	Console.WriteLine("La media non si approssima a 5.5");
+}
+Console.ReadKey();
+            
+  
