@@ -1,0 +1,29 @@
+using System.Net.Mime;
+using System.Security.Cryptography;
+
+Random rnd = new Random();
+int raggio, PuntiDentro = 0;
+double xCentro = 0, yCentro = 0, xPunto, yPunto, distanza, area, NumeroPunti;
+
+Console.Write("Insersci il raggio del cerchio: ");
+raggio = int.Parse(Console.ReadLine());
+
+Console.Write("Inserisci il numero di punti da generare: ");
+NumeroPunti = double.Parse(Console.ReadLine());
+
+for(int i = 0; i < NumeroPunti; i++)
+{
+	xPunto = rnd.NextDouble() * raggio;
+	yPunto = rnd.NextDouble() * raggio;
+
+	distanza = Math.Sqrt(Math.Pow(xPunto - xCentro, 2) + Math.Pow(yPunto - yCentro, 2));
+	if(distanza < raggio)
+	{
+		PuntiDentro++;
+	}
+}
+
+area = (PuntiDentro / NumeroPunti) * (raggio * raggio) * 4;
+
+Console.WriteLine("L'area del cerchio è: " + area);
+Console.ReadKey();
