@@ -1,0 +1,16 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "phone-keyboard-server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "robotjs": "^0.6.0",
+    "ws": "^8.18.3"
+  },
+  "scripts": {
+    "start": "node phone-keyboard-server.js"
+  }
+}
